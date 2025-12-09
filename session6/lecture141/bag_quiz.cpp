@@ -4,6 +4,8 @@ typedef long long ll;
 ll n, k, ret, temp1, temp;
 int main()
 {
+
+  // 빠른 입출력
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   cout.tie(NULL);
