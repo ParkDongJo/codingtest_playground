@@ -15,6 +15,9 @@ void dfs(int y, int x)
     int nx = x + dx[i];
     if (nx < 0 || nx >= n || ny < 0 || ny >= n || visited[ny][nx])
       continue;
+    
+      // abs 로 절대값에 대한 계산
+      // 소수점 제거라고 했을 시 사용
     if (abs(a[ny][nx] - a[y][x]) >= l && abs(a[ny][nx] - a[y][x]) <= r)
     {
       visited[ny][nx] = 1;
