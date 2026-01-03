@@ -2,4 +2,8 @@
 
 예시
 방향키 - dy, dx
+현재키 - y, x
+다음키 - ny, nx
 최대/최소 - mx, mn
+결과 - result
+카운팅 - cnt

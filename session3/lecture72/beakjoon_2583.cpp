@@ -7,6 +7,7 @@ const int dy[4] = {-1, 0, 1, 0};
 const int dx[4] = {0, 1, 0, -1};
 vector<int> ret;
 
+// 그리고 int 형 dfs 로 dfs 를 하면서 그 갯수를 재귀로 더해가는 걸 생각해내는게 핵심이다
 int dfs(int y, int x)
 {
   visited[y][x] = 1;
@@ -61,8 +62,10 @@ int main()
     }
   }
 
-  // 그 크기를 정렬한다.
+  // 결과를 크기순으로 정렬하고
   sort(ret.begin(), ret.end());
+
+  // 결과를 출력한다
   cout << ret.size() << "\n";
   for (int a : ret)
     cout << a << " ";
