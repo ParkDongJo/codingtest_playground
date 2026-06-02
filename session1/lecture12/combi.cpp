@@ -27,6 +27,7 @@ void combi(int start, vector<int> v)
   }
   for (int i = start + 1; i < n; i++)
   {
+    // 인덱스를 넣어둬서, 추후에 로직에서 인덱스를 기반으로 문제를 푸는게 좋다
     v.push_back(i);
     combi(i, v);
     v.pop_back();
