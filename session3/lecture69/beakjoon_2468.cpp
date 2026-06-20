@@ -49,6 +49,7 @@ int main()
         }
       }
     }
+    // 최대값을 구하기 위함
     ret = max(ret, cnt);
   }
   cout << ret << '\n';

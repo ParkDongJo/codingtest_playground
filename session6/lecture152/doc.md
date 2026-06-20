@@ -15,3 +15,4 @@ https://www.acmicpc.net/problem/1644
 
 [출력]
 첫째 줄에 자연수 N이 주어진다. (1 ≤ N ≤ 4,000,000)
+
